@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "webpart-editor-kanban",
+    "libraryId": "5e786c36-9ffc-439f-8c4c-242d9e8ceef1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "webpart-editor-kanban",
+    "solutionShortDescription": "webpart-editor-kanban description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

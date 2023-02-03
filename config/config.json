@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "editor-kan-ban-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/editorKanBan/EditorKanBanWebPart.js",
+          "manifest": "./src/webparts/editorKanBan/EditorKanBanWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EditorKanBanWebPartStrings": "lib/webparts/editorKanBan/loc/{locale}.js"
+  }
+}

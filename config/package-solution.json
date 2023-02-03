@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "webpart-editor-kanban-client-side-solution",
+    "id": "5e786c36-9ffc-439f-8c4c-242d9e8ceef1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "webpart-editor-kanban description"
+      },
+      "longDescription": {
+        "default": "webpart-editor-kanban description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "webpart-editor-kanban Feature",
+        "description": "The feature that activates elements of the webpart-editor-kanban solution.",
+        "id": "aebf93bf-e5f0-47cc-ac13-7e9ba3a99b7b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/webpart-editor-kanban.sppkg"
+  }
+}

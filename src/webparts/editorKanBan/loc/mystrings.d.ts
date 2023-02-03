@@ -6,6 +6,7 @@ declare interface IEditorKanBanWebPartStrings {
   AppLocalEnvironmentTeams: string;
   AppSharePointEnvironment: string;
   AppTeamsTabEnvironment: string;
+  SiteUrlFieldLabel: string;
 }
 
 declare module 'EditorKanBanWebPartStrings' {

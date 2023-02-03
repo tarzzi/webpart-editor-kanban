@@ -14,6 +14,7 @@ import { IEditorKanBanProps } from './components/IEditorKanBanProps';
 
 export interface IEditorKanBanWebPartProps {
   description: string;
+  siteUrl: string;
 }
 
 export default class EditorKanBanWebPart extends BaseClientSideWebPart<IEditorKanBanWebPartProps> {
@@ -29,7 +30,9 @@ export default class EditorKanBanWebPart extends BaseClientSideWebPart<IEditorKa
         isDarkTheme: this._isDarkTheme,
         environmentMessage: this._environmentMessage,
         hasTeamsContext: !!this.context.sdks.microsoftTeams,
-        userDisplayName: this.context.pageContext.user.displayName
+        userDisplayName: this.context.pageContext.user.displayName,
+        context: this.context,
+        siteUrl: this.properties.siteUrl
       }
     );
 
@@ -89,6 +92,9 @@ export default class EditorKanBanWebPart extends BaseClientSideWebPart<IEditorKa
               groupFields: [
                 PropertyPaneTextField('description', {
                   label: strings.DescriptionFieldLabel
+                }),
+                PropertyPaneTextField('siteUrl', {
+                  label: strings.SiteUrlFieldLabel
                 })
               ]
             }

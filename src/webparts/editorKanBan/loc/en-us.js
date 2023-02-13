@@ -7,6 +7,7 @@ define([], function() {
     "AppLocalEnvironmentTeams": "The app is running on your local environment as Microsoft Teams app",
     "AppSharePointEnvironment": "The app is running on SharePoint page",
     "AppTeamsTabEnvironment": "The app is running in Microsoft Teams",
-    "SiteUrlLabel": "Site collection URL"
+    "SiteUrlLabel": "Site collection URL",
+    "SiteUrlFieldLabel" : "Site collection URL"
   }
 });
